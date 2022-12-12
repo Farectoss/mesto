@@ -1,0 +1,20 @@
+.profile__specialization {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/*при разрешении от 0 до 880px */
+/*разрешение 320px */
+
+@media screen and (max-width: 880px) {
+
+    .profile__specialization {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

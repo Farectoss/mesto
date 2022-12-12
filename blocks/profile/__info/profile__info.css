@@ -1,0 +1,18 @@
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 336px;
+    gap: 16px;
+}
+
+/*при разрешении от 0 до 880px */
+/*разрешение 320px */
+
+@media screen and (max-width: 880px) {
+
+    .profile__info {
+        gap: 14px;
+        min-width: 100%;
+    }
+}

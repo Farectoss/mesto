@@ -1,0 +1,22 @@
+.profile {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 30px;
+    max-width: 880px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+
+/*при разрешении от 0 до 640px */
+/*разрешение 320px */
+
+@media screen and (max-width: 640px) {
+
+    .profile {
+        flex-direction: column;
+        max-width: 282px;
+    }
+}

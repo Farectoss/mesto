@@ -1,0 +1,15 @@
+.header {
+    max-width: 880px;
+    border-bottom: 1px solid #545454;
+}
+
+/*при разрешении от 0 до 880px 
+/*разрешение 320px
+
+@media screen and (max-width: 880px) {
+
+    .header {
+        min-width: initial;
+        padding-top: 28px;
+    }
+}*/

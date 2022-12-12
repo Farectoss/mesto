@@ -1,0 +1,24 @@
+.profile__add-button {
+    position: absolute;
+    bottom: 35px;
+    right: 0;
+    background-image: url('../../../images/Add Button.svg');
+    height: 50px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+}
+
+/*при разрешении от 0 до 640px */
+/*разрешение 320px */
+
+@media screen and (max-width: 640px) {
+
+    .profile__add-button {
+        position: initial;
+        background-image: url('../../../images/Add Button-2.svg');
+        min-width: 282px;
+    }
+}
