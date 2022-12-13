@@ -7,4 +7,29 @@
     row-gap: 20px;
     padding-top: 51px;
     padding-bottom: 67px;
+    box-sizing: border-box;
+}
+
+
+
+
+/*при разрешении от 0 до 930px */
+/*разрешение 320px */
+
+@media screen and (max-width: 930px) {
+
+    .places {
+        padding: 0 19px 48px;
+        grid-template-columns: repeat(2, minmax(220px, 1fr));
+    }
+}
+
+/*при разрешении от 0 до 500px */
+/*разрешение 320px */
+
+@media screen and (max-width: 500px) {
+
+    .places {
+        grid-template-columns: repeat(1, minmax(220px, 1fr));
+    }
 }

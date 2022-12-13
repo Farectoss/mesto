@@ -4,10 +4,10 @@
     padding-bottom: 41px;
 }
 
-/*при разрешении от 0 до 320px */
+/*при разрешении от 0 до 750px */
 /*разрешение 320px */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
 
     .header__logo {
         padding-bottom: 32px;
