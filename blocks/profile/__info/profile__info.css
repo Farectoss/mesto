@@ -6,10 +6,10 @@
     gap: 16px;
 }
 
-/*при разрешении от 0 до 880px */
+/*при разрешении от 0 до 1044px */
 /*разрешение 320px */
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 1044px) {
 
     .profile__info {
         gap: 14px;

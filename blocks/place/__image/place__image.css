@@ -1,6 +1,7 @@
 .place__image {
     object-fit: fill;
     width: 100%;
+    min-height: 282px;
     object-position: center;
     max-height: 282px;
     background-repeat: no-repeat;

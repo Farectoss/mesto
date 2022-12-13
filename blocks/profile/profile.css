@@ -10,10 +10,10 @@
 
 
 
-/*при разрешении от 0 до 640px */
+/*при разрешении от 0 до 1044px */
 /*разрешение 320px */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1044px) {
 
     .profile {
         flex-direction: column;
