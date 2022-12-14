@@ -1,0 +1,14 @@
+.content {
+    padding: 40px 0 51px;
+}
+
+/*при разрешении от 0 до 750px */
+/*разрешение 320px */
+
+@media screen and (max-width: 750px) {
+
+    .content {
+        padding-top: 42px;
+        padding-bottom: 32px;
+    }
+}

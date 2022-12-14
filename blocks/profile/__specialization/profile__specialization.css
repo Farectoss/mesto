@@ -5,6 +5,7 @@
     font-size: 18px;
     line-height: 22px;
     color: #FFFFFF;
+    padding-top: 7px;
 }
 
 /*при разрешении от 0 до 1044px */
@@ -16,5 +17,6 @@
         font-size: 14px;
         line-height: 17px;
         text-align: center;
+        padding-top: 9px;
     }
 }

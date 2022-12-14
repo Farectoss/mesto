@@ -10,3 +10,13 @@
     padding: 0;
     background-color: transparent;
 }
+
+/*при разрешении от 0 до 1044px */
+/*разрешение 320px */
+
+@media screen and (max-width: 1044px) {
+
+    .place__like-button {
+        right: 20px;
+    }
+}

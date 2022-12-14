@@ -7,3 +7,14 @@
     color: #545454;
     margin: 0;
 }
+
+/*при разрешении от 0 до 750px */
+/*разрешение 320px */
+
+@media screen and (max-width: 750px) {
+
+    .footer__text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
